@@ -1,0 +1,43 @@
+Fullstack Development (FSD)
+    1. Front End 
+            -> Angular, React 
+    2. Middleware
+            -> Java , Dot net
+    3. Back End
+            -> Databases like mysql, mongodb etc ..
+
+----------------------------------------------
+
+1. Java SE (Standard Edition)
+    -> OOPS
+    -> database basics
+    -> JDBC
+2. Java EE (Enterprise Edition)
+    -> HTML / CSS / Bootstrap / Java Script
+    -> Servlets / JSP / JSTL /EL
+
+3. ORM (Object Relational mapping)
+    -> Hibernate , JPA
+4. Spring
+    -> DI, IOC
+    -> Spring COre
+    -> Spring AOP
+    -> Spring DATA -> JDBC Template
+    -> Spring ORM -> Hibernate and JPA Integration
+    -> Spring Web-MVC
+    -> Spring Rest API -> Web Services (SOAP and Rest)
+5. Spring Boot
+    -> Starters 
+    -> Boot Core basics
+    -> Actuvator End Points
+    -> Boot Data JPA 
+    -> Boot WEb MVC
+    -> Boot rest API
+    -> Boot Microservices
+    -> Spring Security 
+        -> basics
+        -> Form
+        -> Oauth 2.0
+        -> JWT
+
+
