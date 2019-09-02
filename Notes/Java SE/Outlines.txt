@@ -1,0 +1,30 @@
+Java Fullstack Develoment (FSD)
+---------------------------------------
+1. Java SE (Core Java)
+2. Database Basics
+3. JDBC 
+----------------------------------------
+Java EE (Java Enterprise Edition -> Advance Java)
+1. HTML / CSS/Bootstrap/ Java Script
+2. Servlets, JSP, JSTL and EL
+----------------------------------------
+ORM (Object Relational Mapping) - database
+1. Hibernate and JPA
+---------------------------------------
+Spring Framework
+1. DI (Dependency Injection)
+2. IOC (Inversion of contreol)
+3. Spring Core
+4. Spring AOP
+5. Spring Data -> JDBC Template
+6. Spring ORM -> Hibernate and JPA Integration
+7. Spring Web MVC
+8. Spring Rest API (Web Services -> SOAP and REST)
+-------------------------------------------
+Spring BOOT 2x
+1. Boot Core
+2. Boot Data JPA
+3. Boot WEB MVC and REST API
+5. Micro Services and Cloud
+6. Spring Boot Security -> OAUTH 2.0 and JWT
+-------------------------------------------
