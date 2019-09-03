@@ -1,0 +1,25 @@
+Structure orienred programing 
+----------------------------------
+-> Code organization issues
+-> No re-usability
+-> data abstraction issues
+-> polymorphic behavior issues
+
+--------------------------------------------
+
+C++ 
+------
+    -> OOPS (Partial object oriented language)
+
+issues with opps in c plus plus
+----------------------------------
+    -> main function is outside of class
+    -> friend functions and friend clases
+    -> pointers
+    -> Multiple Inheritance is avilable
+    -> Virtual classes and functions
+
+
+    ---------------------
+
+
