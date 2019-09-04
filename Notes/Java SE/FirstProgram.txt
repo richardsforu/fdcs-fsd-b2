@@ -1,0 +1,7 @@
+Java First program
+------------------------
+1. You can compile any java class
+2. But you can run only the classes having
+   public static void main(String[] args) method
+
+3. One class file can have many other classes

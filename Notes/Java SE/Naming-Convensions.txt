@@ -1,0 +1,20 @@
+Naming Convensions
+---------------------
+1.class: Every class should start with upper case letter. If class name
+contsins morte than one words, then each new word's first letter 
+should be capitalized
+Ex: Employee, Test , ContractEmployee, DataInputStream
+    ClassNotFoundException
+
+2.methods/objects/variables: every method should start with lower case 
+letter. If there are morte than  one word in method name, then 
+each word's first letter should be  capitalized
+Ex: main, fun, processSalary(), employeeName, getCustomerInfo()
+
+3. keywords/packages: every keyword and package name should be in
+   lower case letter
+   ex: class , int , for, if , mypack , java.lang
+4. cont: every const should be defined as upper class letters only
+ ex: MAX_AGE , SIZE
+
+ ----------------------------------------

@@ -1,0 +1,6 @@
+Compress files in java
+--------------------------
+1. jar (packing core java classes)
+2. war (packing of web components)
+3. ear (packing of web and enterprise components)
+

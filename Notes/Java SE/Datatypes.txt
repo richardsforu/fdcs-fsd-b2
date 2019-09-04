@@ -1,0 +1,28 @@
+Data Types
+----------------
+1. Primitive data Types
+2. referenced / Object data Types
+
+1. Primitive data Types      Wraper class
+---------------------------------------------------
+- int       : 4 bytes       Integer
+- long      : 8 bytes       Long
+- short     : 2 bytes       Short
+- byte      : 1 byte        Byte
+
+- float     : 4 bytes       Float
+- double    : 8 bytes       Double
+
+- char      : 2 bytes       Character
+
+- boolean   : 1 byte        Boolean
+
+----------------------
+1 character - 1 bit
+8 bits - 1 byte
+
+Notes
+-------
+-> any variable which defines in a method, then that variable
+   becomes local to that method. scope of that variable is only 
+   with in that method.
