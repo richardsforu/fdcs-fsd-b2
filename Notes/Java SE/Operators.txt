@@ -1,0 +1,22 @@
+Operastors
+--------------
+1. Arthemetic
+    +, -, *, / , %
+ex:   10/2 = 5 , 10%2 = 0
+
+2. relational
+----------------
+    > , < , >=, <=, == , !=  
+
+3. Assignment
+--------------
+=
+4. Logical 
+------------
+1. && , || 
+
+5. Increment/Decrement
+ ++ and --
+    -> pre Increment  (++i)
+    -> post increment (i++)
+-------------------------------------------

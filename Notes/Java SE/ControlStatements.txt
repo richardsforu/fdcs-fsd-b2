@@ -1,0 +1,18 @@
+Control Statements
+--------------------
+1. if and if else
+2. nested if
+3. switch
+
+Loops
+------
+1. while
+2. do-while
+3. for Loop
+4. for each loop -> Arrays
+
+
+1. if and if else
+----------------------
+Notes: 
+    -> Only relational operators should be used in the condition part
