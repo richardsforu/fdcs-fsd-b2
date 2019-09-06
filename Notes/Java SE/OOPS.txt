@@ -1,0 +1,27 @@
+OOPS
+------------
+1. class
+2. object
+3. encapulation
+4. inheritance
+5. abstraction
+6. polymorphism
+--------------------------
+
+1. class
+----------
+-> is a group name which contains methods,
+   constructors and properties
+
+Notes
+--------
+1. static methods can accesss static data of the 
+   same class directly
+2. static methods can access sttaic data of 
+   other classes with other class name
+Note: We dont require objevct at all to access
+         static content from any class
+------------------------------------------------------
+
+
+
