@@ -26,3 +26,4 @@ Notes
 -> any variable which defines in a method, then that variable
    becomes local to that method. scope of that variable is only 
    with in that method.
+--------
