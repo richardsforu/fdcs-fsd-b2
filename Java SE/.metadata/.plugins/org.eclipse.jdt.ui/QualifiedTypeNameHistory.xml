@@ -3,4 +3,9 @@
 <fullyQualifiedTypeName name="com.Employee"/>
 <fullyQualifiedTypeName name="edu.Employee"/>
 <fullyQualifiedTypeName name="com.Person"/>
+<fullyQualifiedTypeName name="com.C3"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="com.C1"/>
+<fullyQualifiedTypeName name="com.C2"/>
 </qualifiedTypeNameHistroy>

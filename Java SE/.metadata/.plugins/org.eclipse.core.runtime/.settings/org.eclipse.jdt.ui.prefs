@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.Person"><rhs name\="com.Person"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.Person"><rhs name\="com.Person"/></lhs><lhs name\="com.C3"><rhs name\="com.C3"/></lhs><lhs name\="com.C1"><rhs name\="com.C1"/></lhs><lhs name\="com.C2"><rhs name\="com.C2"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
