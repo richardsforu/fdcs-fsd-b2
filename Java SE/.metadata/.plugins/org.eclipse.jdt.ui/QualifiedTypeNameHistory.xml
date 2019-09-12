@@ -10,4 +10,5 @@
 <fullyQualifiedTypeName name="com.Employee"/>
 <fullyQualifiedTypeName name="com.Student"/>
 <fullyQualifiedTypeName name="com.Teacher"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
 </qualifiedTypeNameHistroy>
