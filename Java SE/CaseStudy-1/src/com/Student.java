@@ -16,6 +16,7 @@ public class Student {
 	private String nationality;
 	private String admissionId;
 	private String result;
+	private Exam exam; // exam class ref object
 
 	public Student(String name, String maritalStatus, int age, char sex, String dateOfBirth, String address,
 			String primaryEmailId, String secondaryEmaiId, long phoneNumber, String interestedSubject,
@@ -33,14 +34,31 @@ public class Student {
 		this.interestedSubject = interestedSubject;
 		this.highestEducationQualification = highestEducationQualification;
 		this.nationality = nationality;
-		
+
 	}
-	
-	
-	
-	
-	
-	
+
+	// Student class business logic methods
+
+	public void registerStudent() {
+		Registrar registrar = Registrar.getRegistrar();
+		admissionId = registrar.registerStudent(this);
+	}
+
+	// ---------------------
+
+	public void registerForExam() {
+		ExamRegistrar examRegistrar = ExamRegistrar.getExamRegistrar();
+		exam = examRegistrar.registeringStudentForExamination(this);
+
+	}
+
+	// -----------------------
+
+	public String appearForExam() {
+		Paper paper = exam.getPaper();
+		result = paper.submit();
+		return result;
+	}
 
 	public String getName() {
 		return name;
