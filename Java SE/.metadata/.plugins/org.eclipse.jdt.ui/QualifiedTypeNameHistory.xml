@@ -12,4 +12,8 @@
 <fullyQualifiedTypeName name="com.C2"/>
 <fullyQualifiedTypeName name="org.pk.C14"/>
 <fullyQualifiedTypeName name="com.Employee"/>
+<fullyQualifiedTypeName name="com.RegularEmployee"/>
+<fullyQualifiedTypeName name="com.ContractEmployee"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 </qualifiedTypeNameHistroy>
