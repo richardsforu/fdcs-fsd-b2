@@ -16,4 +16,12 @@
 <fullyQualifiedTypeName name="com.ContractEmployee"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="com.MyInter"/>
+<fullyQualifiedTypeName name="com.MyInter2"/>
+<fullyQualifiedTypeName name="com.Customer"/>
+<fullyQualifiedTypeName name="com.BankEmpoyee"/>
+<fullyQualifiedTypeName name="com.Manager"/>
+<fullyQualifiedTypeName name="com.Cleark"/>
+<fullyQualifiedTypeName name="com.Bank"/>
+<fullyQualifiedTypeName name="com.Use"/>
 </qualifiedTypeNameHistroy>
