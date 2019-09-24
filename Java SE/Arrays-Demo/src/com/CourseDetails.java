@@ -13,12 +13,27 @@ public class CourseDetails {
 	public static Course[] findCourses(Course[] courselist, int duration) {
 		// fill the logic
 		
+		Course[] resultCourses=new Course[10];
 				
 		for(int i=0;i<courselist.length;i++) {
 			
+			if(courselist[i].getDuration()< duration) {
+				
+				
+				
+				if((courselist[i].getMaxCapacity() - courselist[i].getNoOfLearners())>10) {
+
+					// logic to return all all the matching courses 
+					resultCourses[i]=courselist[i];
+					
+					
+				}
+				
+			}
+			
 		}
 
-		return null;
+		return resultCourses;
 	}
 	
 	

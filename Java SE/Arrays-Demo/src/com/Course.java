@@ -28,7 +28,9 @@ public class Course {
 		this.duration = duration;
 		this.fee = fee;
 		this.noOfLearners=noOfLearners;
+		this.maxCapacity=maxCapacity;
 	}
+	
 
 	
 	
