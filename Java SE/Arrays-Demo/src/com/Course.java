@@ -2,37 +2,67 @@ package com;
 
 public class Course {
 
-	private int courseID;
+	private int courseId;
 	private String courseName;
-	private double fee;
 	private int duration;
+	private double fee;
 	private int maxCapacity;
+	private int noOfLearners;
+	
+	
+	
+	public void display() {
+		System.out.println("Course Id: " + courseId);
+		System.out.println("Name: " + courseName);
+		System.out.println("Duration: " + duration);
+		System.out.println("Fee: " + fee);
+		System.out.println("-----------------------------");
+	}
 
-	public Course(int courseID, String courseName, double fee, int duration, int maxCapacity) {
-		this.courseID = courseID;
+	
+
+	public Course(int courseId, String courseName, int duration, double fee,int maxCapacity,int noOfLearners ) {
+
+		this.courseId = courseId;
 		this.courseName = courseName;
-		this.fee = fee;
 		this.duration = duration;
+		this.fee = fee;
+		this.noOfLearners=noOfLearners;
+	}
+
+	
+	
+	
+	public int getNoOfLearners() {
+		return noOfLearners;
+	}
+
+
+
+	public void setNoOfLearners(int noOfLearners) {
+		this.noOfLearners = noOfLearners;
+	}
+
+
+
+	public int getMaxCapacity() {
+		return maxCapacity;
+	}
+
+
+
+	public void setMaxCapacity(int maxCapacity) {
 		this.maxCapacity = maxCapacity;
 	}
 
-	
-	public void display() {
-		System.out.println("Course Id: "+courseID);
-		System.out.println("Name: "+courseName);
-		System.out.println("Duration: "+duration);
-		System.out.println("Fee: "+fee);
-		System.out.println("Max Capacity: "+maxCapacity);
-		System.out.println("----------------------------------");
-	}
-	
-	
-	public int getCourseID() {
-		return courseID;
+
+
+	public int getCourseId() {
+		return courseId;
 	}
 
-	public void setCourseID(int courseID) {
-		this.courseID = courseID;
+	public void setCourseId(int courseId) {
+		this.courseId = courseId;
 	}
 
 	public String getCourseName() {
@@ -43,14 +73,6 @@ public class Course {
 		this.courseName = courseName;
 	}
 
-	public double getFee() {
-		return fee;
-	}
-
-	public void setFee(double fee) {
-		this.fee = fee;
-	}
-
 	public int getDuration() {
 		return duration;
 	}
@@ -59,12 +81,12 @@ public class Course {
 		this.duration = duration;
 	}
 
-	public int getMaxCapacity() {
-		return maxCapacity;
+	public double getFee() {
+		return fee;
 	}
 
-	public void setMaxCapacity(int maxCapacity) {
-		this.maxCapacity = maxCapacity;
+	public void setFee(double fee) {
+		this.fee = fee;
 	}
 
 }
