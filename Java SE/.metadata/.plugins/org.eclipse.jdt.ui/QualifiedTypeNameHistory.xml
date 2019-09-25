@@ -8,10 +8,8 @@
 <fullyQualifiedTypeName name="com.Student"/>
 <fullyQualifiedTypeName name="com.Teacher"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="com.C1"/>
 <fullyQualifiedTypeName name="com.C2"/>
 <fullyQualifiedTypeName name="org.pk.C14"/>
-<fullyQualifiedTypeName name="com.Employee"/>
 <fullyQualifiedTypeName name="com.RegularEmployee"/>
 <fullyQualifiedTypeName name="com.ContractEmployee"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -24,4 +22,11 @@
 <fullyQualifiedTypeName name="com.Cleark"/>
 <fullyQualifiedTypeName name="com.Bank"/>
 <fullyQualifiedTypeName name="com.Use"/>
+<fullyQualifiedTypeName name="com.Course"/>
+<fullyQualifiedTypeName name="com.C1"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.Employee"/>
 </qualifiedTypeNameHistroy>
