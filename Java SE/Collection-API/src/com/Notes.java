@@ -38,7 +38,7 @@ Non Linear data structures
 List Interface 
 	-> ArrayList
 	-> Vector -> Stack extends Vector
-	->LinkedList
+	-> LinkedList
 
 Set Interface
 	-> HashSet
