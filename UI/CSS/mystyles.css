@@ -1,0 +1,18 @@
+.banner{
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #FF0000;
+
+}
+.s1{
+    font-size: 20px;
+    color: blue;
+    font-weight: bolder;
+}x
