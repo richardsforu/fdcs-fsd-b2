@@ -1,0 +1,105 @@
+
+--------------------------------------
+web-ui
+--------------------------------------
+
+ UI  ==> content/data + style + behavior
+
+ 
+ content  ==> HTML
+ style    ==> CSS
+ behavior ==> javascript
+
+
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+What is Java Script?
+-----------------------
+-> client side language for web pages on browser
+-> server side language on Node.js
++
+-> Mobile native application with tool support
+-> Desktop applications with Electron
+-------------------------------------------------
+
+.js features
+-------------
+-> Functional programing and OOPS 
+-> Dynamic (data types)
+-> all IO opeartions by defaukt non blocking
+-> Single thread process, it can execute concurrent action while IO happening
+
+----------------------------------------------
+How to run .js programs?
+
+=> using java script runtime
+
+browser environment
+----------------------
+-> Chrome        => V8(c++)
+-> firefox       => Rhino/spider monkey (Java)
+-> IE/Edge       => Chakra
+-> Safari        => Nitro
+
+other environment
+------------------
+-> Node.js       => V8
+-> JVM           => Rhino/Nashorn
+
+
+.js language is based on 'ECMASCRIPT' Specifecation
+latest ES : ES6/ES7
+
+-------------------------------------------------
+
+Hello world demo on js
+
+-------------------------------------------------
+
+
+
+what .js-lang can do on HTML-page in browser envi?
+
+
+
+using browser provided web-APIs,
+JavaScript-lang can bring any dynamic activity/data to web-page
+
+
+browser-APIs :  ==> are based on 'w3c' recommendations,
+implemented nativly by browser vendors & abstracted as JavaScript objects & functions
+
+browser-APIs  :
+    ==> DOM,XHR,Timer,....
+
+
+using DOM API
+--------------
+ -> can create,retreive,update,delete HTML elements
+ -> can change element's inner text/html content 
+ -> can change element's attributes/properties
+ -> can change element's styles ( css )
+ -> can validate form-fields before submit to server-program
+ -> can create rich UI-components like  autocomplete, data-grids, calenders,..
+ -> can listen any events on element
+ .......
+
+ using XHR / Fetch API
+ ----------------------   
+ -> can communicate with server-side programs async 
+
+using Timer API
+------------------
+ -> can execute any action on timeout/time-interval
+ 
+
+
+HTML5 APIs
+------------------
+ - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
