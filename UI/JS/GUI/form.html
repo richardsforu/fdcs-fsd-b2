@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+  
+ 
+  
+</head>
+<body>
+    <h1>Form Validation_</h1> <hr>
+    
+   
+        <form  name="mf" action="www.abc.com" autocomplete="off" onsubmit="return validateForm()">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="fname" id="fname" onblur="validateForm()">
+                <span id="firstNameError"></span>
+            </div>
+
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lname" id="lname" onblur="validateForm()">
+                <span id="lastNameError"></span>
+            </div>
+
+            <div>
+                <input type="submit" value="Register">
+            </div>
+        </form>
+
+
+    <script src="validations.js"></script>
+</body>
+</html>
