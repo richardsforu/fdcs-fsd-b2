@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-public class Test {
+public class StatementDemo2 {
 
 	public static void main(String[] args) {
 
@@ -17,27 +17,20 @@ public class Test {
 			//Connection con1 = DriverManager.getConnection("jdbc?;oracle:thin://localhost:1521:orcl","scott","tiger");
 			// load ojdbc14.jar
 			
-			String q1="insert into product values('P002','Pen',76.45)";
-			String q2="insert into product values('P003','Pen',76.45)";
-
-			String q3="insert into product values('P004','Pen',76.45)";
-
-			String q4="insert into product values('P005','Pen',76.45)";
-
+			String id="P001";
+			String produtName="Samsung Mobile";
+			double price=95000;
+		//	String q1="update product set product_name='Mac Book Pro',price=15000 where product_id='P003'";
+		
+			String q1="update product set product_name='"+produtName+"',price="+price+" where product_id='"+id+"'";
+			System.out.println(q1);
 			
 			
 			Statement stmt=con.createStatement();
-			Statement stmt1=con.createStatement();
-			Statement stmt2=con.createStatement();
-			Statement stmt3=con.createStatement();
-			
+		
 			int x=stmt.executeUpdate(q1);
-			int x1=stmt1.executeUpdate(q2);
-			int x2=stmt2.executeUpdate(q3);
-			int x3=stmt3.executeUpdate(q4);
 			
-			
-			System.out.println(x+" records Inserted..");
+			System.out.println(x+" records Updated..");
 			
 			
 		} catch (Exception e) {
