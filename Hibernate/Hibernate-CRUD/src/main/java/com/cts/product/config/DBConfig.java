@@ -1,6 +1,5 @@
 package com.cts.product.config;
 
-import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.Properties;
 
@@ -11,6 +10,8 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Environment;
 
+import com.cts.product.entity.Item;
+import com.cts.product.entity.Order;
 import com.cts.product.entity.Product;
 
 public class DBConfig {
@@ -24,8 +25,8 @@ public class DBConfig {
 		Properties props=new Properties();
 		try {
 			
-			props.load(new FileInputStream("db.properties"));
-			//props.load(ClassLoader.getSystemClassLoader().getResourceAsStream("db.properties"));
+			//props.load(new FileInputStream("./db.properties"));
+			props.load(ClassLoader.getSystemClassLoader().getResourceAsStream("db.properties"));
 			HashMap<String, String> settings = new HashMap<String, String>();
 			settings.put(Environment.DRIVER, props.getProperty("mysql.driver"));
 			settings.put(Environment.URL, props.getProperty("mysql.url"));
@@ -44,6 +45,8 @@ public class DBConfig {
 			MetadataSources metadataSources = new MetadataSources(registry);
 			// mappings
 			metadataSources.addAnnotatedClass(Product.class);
+			metadataSources.addAnnotatedClass(Item.class);
+			metadataSources.addAnnotatedClass(Order.class);
 			
 			Metadata metadata = metadataSources.getMetadataBuilder().build();
 			sessionFactory = metadata.buildSessionFactory();
