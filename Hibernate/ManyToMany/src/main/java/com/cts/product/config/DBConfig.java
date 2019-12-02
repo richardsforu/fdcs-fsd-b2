@@ -10,8 +10,9 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Environment;
 
-import com.cts.product.entity.Department;
-import com.cts.product.entity.Employee;
+import com.cts.product.entity.Actor;
+import com.cts.product.entity.Film;
+
 
 public class DBConfig {
 
@@ -43,8 +44,8 @@ public class DBConfig {
 
 			MetadataSources metadataSources = new MetadataSources(registry);
 			// mappings
-			metadataSources.addAnnotatedClass(Employee.class);
-			metadataSources.addAnnotatedClass(Department.class);
+			metadataSources.addAnnotatedClass(Actor.class);
+			metadataSources.addAnnotatedClass(Film.class);
 			Metadata metadata = metadataSources.getMetadataBuilder().build();
 			sessionFactory = metadata.buildSessionFactory();
 
