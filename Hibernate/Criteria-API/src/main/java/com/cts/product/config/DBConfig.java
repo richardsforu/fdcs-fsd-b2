@@ -1,6 +1,6 @@
 package com.cts.product.config;
 
-import java.io.FileInputStream;
+
 import java.util.HashMap;
 import java.util.Properties;
 

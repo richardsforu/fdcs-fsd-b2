@@ -3,8 +3,13 @@ package com.cts.product.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 
 @Entity
+@NamedQuery(name = "actor_fetch",query = "from Actor")
+@NamedQueries(value = {@NamedQuery(name="q1",query = "from Actor as a where a.actorId<=5"),
+					   @NamedQuery(name="q2",query = "from Actor as a where a.actorId between 1 and 10")})
 public class Actor {
 
 	@Id
