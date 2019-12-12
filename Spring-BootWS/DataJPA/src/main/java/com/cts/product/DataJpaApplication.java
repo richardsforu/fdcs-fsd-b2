@@ -11,6 +11,7 @@ import com.cts.product.entity.Product;
 public class DataJpaApplication {
 
 	public static void main(String[] args) {
+		
 		ApplicationContext ac=SpringApplication.run(DataJpaApplication.class, args);
 	
 		ProductDao prodDao=ac.getBean(ProductDao.class);
